@@ -1,0 +1,38 @@
+﻿@using System.Security.Claims
+@model Website.Controllers.LoginViewModel
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "";
+    var principal = ClaimsPrincipal.Current;
+}
+
+@if (principal != null)
+{
+    <h4>Is authenticated - @principal.Identity.IsAuthenticated</h4>
+    <h4>Name - @principal.Identity.Name</h4>
+    <h4>Claims:</h4>
+
+    foreach (var claim in @principal.Claims)
+    {
+        <span>Issuer - @claim.Issuer</span><br/>
+        <span>OriginalIssuer - @claim.OriginalIssuer</span><br />
+        <span>Subject - @claim.Subject</span><br />
+        <span>Type - @claim.Type</span><br />
+        <span>ValueType - @claim.ValueType</span><br />
+        <span>Value - @claim.Value</span><br/>
+        <hr/>
+    }
+}
+
+<h2>Login</h2>
+
+<h3>ErrorMsg - @ViewBag.ErrorMsg</h3>
+
+@using (Html.BeginForm("Index", "StartPage", new { ReturnUrl = Request.QueryString["ReturnUrl"] ?? String.Empty }, FormMethod.Post))
+{
+    <fieldset>
+        Username: @Html.TextBoxFor(m => m.Username)<br />
+        <input type="submit" value="Submit" />
+    </fieldset>
+}

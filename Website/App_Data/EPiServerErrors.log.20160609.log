@@ -1,0 +1,108 @@
+﻿﻿2016-06-09 09:37:46,124 [158] ERROR EPiServer.Global: 1.2.5 Unhandled exception in ASP.NET
+System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at System.Uri..ctor(String uriString, UriKind uriKind)
+   at Website.Startup.<>c.<<Configuration>b__1_1>d.MoveNext() in C:\AppRoot\Epidemos\EpiUsers\Website\Startup.cs:line 64
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Microsoft.Owin.Security.WsFederation.WsFederationAuthenticationHandler.<AuthenticateCoreAsync>d__1f.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Owin.Security.WsFederation.WsFederationAuthenticationHandler.<AuthenticateCoreAsync>d__1f.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<BaseInitializeAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContextStage.<RunApp>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContext.<DoFinalWork>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.StageAsyncResult.End(IAsyncResult ar)
+   at System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at System.Uri..ctor(String uriString, UriKind uriKind)
+   at Website.Startup.<>c.<<Configuration>b__1_1>d.MoveNext() in C:\AppRoot\Epidemos\EpiUsers\Website\Startup.cs:line 64
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Microsoft.Owin.Security.WsFederation.WsFederationAuthenticationHandler.<AuthenticateCoreAsync>d__1f.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Owin.Security.WsFederation.WsFederationAuthenticationHandler.<AuthenticateCoreAsync>d__1f.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<BaseInitializeAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContextStage.<RunApp>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContext.<DoFinalWork>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.StageAsyncResult.End(IAsyncResult ar)
+   at System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-06-09 09:43:34,451 [136] ERROR EPiServer.Framework.Initialization.InitializationEngine: Initialize action failed for Initialize on class EPiServer.Commerce.Initialization.InitializationModule, EPiServer.Business.Commerce, Version=9.17.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7
+System.TypeInitializationException: The type initializer for 'EPiServer.Globalization.GlobalizationSettings' threw an exception. ---> System.Configuration.ConfigurationErrorsException: The configuration file has been changed by another program. (C:\AppRoot\Epidemos\EpiUsers\Website\web.config)
+   at System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   at System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at EPiServer.Framework.Configuration.FileConfigurationSource.Get[T](String path)
+   at EPiServer.Globalization.GlobalizationSettings..cctor()
+   --- End of inner exception stack trace ---
+   at EPiServer.Globalization.Internal.ContentLanguageImplementation.LanguagePreferenceList(String priorityLanguage)
+   at EPiServer.Globalization.Internal.ContentLanguageImplementation.SetCulture(String priorityLanguage)
+   at EPiServer.Globalization.ContentLanguage.get_PreferredCulture()
+   at EPiServer.Core.ProviderPipelineImplementation.GetSelectorFromOptions(LoaderOptions loaderOptions)
+   at EPiServer.Core.ProviderPipelineImplementation.GetItems(ContentProvider provider, IList`1 contentLinks, LoaderOptions loaderOptions)
+   at EPiServer.Core.DefaultContentLoader.GetItems(IEnumerable`1 contentLinks, LoaderOptions loaderOptions)
+   at EPiServer.Commerce.Initialization.InitializationModule.RegisterContentRoots(InitializationEngine context)
+   at EPiServer.Commerce.Initialization.InitializationModule.Initialize(InitializationEngine context)
+   at EPiServer.Framework.Initialization.Internal.ModuleNode.Execute(Action a, String key)
+   at EPiServer.Framework.Initialization.InitializationEngine.InitializeModules()
+System.TypeInitializationException: The type initializer for 'EPiServer.Globalization.GlobalizationSettings' threw an exception. ---> System.Configuration.ConfigurationErrorsException: The configuration file has been changed by another program. (C:\AppRoot\Epidemos\EpiUsers\Website\web.config)
+   at System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   at System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at EPiServer.Framework.Configuration.FileConfigurationSource.Get[T](String path)
+   at EPiServer.Globalization.GlobalizationSettings..cctor()
+   --- End of inner exception stack trace ---
+   at EPiServer.Globalization.Internal.ContentLanguageImplementation.LanguagePreferenceList(String priorityLanguage)
+   at EPiServer.Globalization.Internal.ContentLanguageImplementation.SetCulture(String priorityLanguage)
+   at EPiServer.Globalization.ContentLanguage.get_PreferredCulture()
+   at EPiServer.Core.ProviderPipelineImplementation.GetSelectorFromOptions(LoaderOptions loaderOptions)
+   at EPiServer.Core.ProviderPipelineImplementation.GetItems(ContentProvider provider, IList`1 contentLinks, LoaderOptions loaderOptions)
+   at EPiServer.Core.DefaultContentLoader.GetItems(IEnumerable`1 contentLinks, LoaderOptions loaderOptions)
+   at EPiServer.Commerce.Initialization.InitializationModule.RegisterContentRoots(InitializationEngine context)
+   at EPiServer.Commerce.Initialization.InitializationModule.Initialize(InitializationEngine context)
+   at EPiServer.Framework.Initialization.Internal.ModuleNode.Execute(Action a, String key)
+   at EPiServer.Framework.Initialization.InitializationEngine.InitializeModules()
